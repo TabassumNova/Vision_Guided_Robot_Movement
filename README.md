@@ -14,6 +14,12 @@ This repository explains the procedure of moving a charuco board in different po
   <img src="Images/rbMotion.png" width="700"/>
  </p>
  
+```
+ZB = matrix.transform(base_wrt_camera, camera_wrt_board)
+gripper_wrt_base = np.linalg.inv(matrix.transform(ZB, board_wrt_gripper))
+```
+
+ 
 ## Requirements
 - python 3.8
 - opencv 4.2
@@ -39,8 +45,7 @@ This repository explains the procedure of moving a charuco board in different po
   <img src="Images/viewPlanTab.png" width="700"/>
  </p>
 
-- Click the ’Directory’ Button: Start by clicking the ’Directory’ button. This
-8. Implementation 83
+- Click the ’Directory’ Button: Start by clicking the ’Directory’ button. This 
 button allows you to select the directory where the images will be saved.
 - Find Cameras: Next, click on the ’Find Cameras’ button. This action will reveal
 the list of cameras currently available.
