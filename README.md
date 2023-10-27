@@ -1,5 +1,10 @@
 # Vision_Guided_Robot_Movement
-
+<p align="center">
+  <img src="Images/g1.gif" width="205"/>
+  <img src="Images/g2.gif" width="204"/>
+  <img src="Images/g3.gif" width="201"/>
+ </p>
+ 
 <p align="center">
   <img src="Images/rbMotion.png" width="700"/>
  </p>
