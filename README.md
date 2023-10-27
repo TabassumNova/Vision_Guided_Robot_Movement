@@ -30,6 +30,7 @@ gripper_wrt_base = np.linalg.inv(matrix.transform(ZB, board_wrt_gripper))
 - numpy 1.23.4
 - matplotlib 3.1.0
 - plotly
+- PyQt5
 
 ## Usage
 - git clone https://github.com/TabassumNova/Multi_Camera_Calibration.git
