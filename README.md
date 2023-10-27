@@ -1,13 +1,38 @@
 # Vision_Guided_Robot_Movement
+Visual Servoing, also known as Vision-Based Control, is a technique used
+in robotics and automation where visual information from a camera is utilized to control
+the motion of a robot or a robotic system. 
+This repository explains the procedure of moving a charuco board in different position and orientation. 
 <p align="center">
   <img src="Images/g1.gif" width="205"/>
   <img src="Images/g2.gif" width="204"/>
   <img src="Images/g3.gif" width="201"/>
  </p>
- 
+
+# Methodology
 <p align="center">
   <img src="Images/rbMotion.png" width="700"/>
  </p>
+ 
+## Requirements
+- python 3.8
+- opencv 4.2
+- ROS (Noetic)
+- multical
+- scipy
+- scikit-learn
+- numpy 1.23.4
+- matplotlib 3.1.0
+- plotly
+
+## Usage
+- git clone https://github.com/TabassumNova/Multi_Camera_Calibration.git
+- Build catkin workspace
+- Source the workspace
+- Run main1 function from [handEye_final.py](https://github.com/TabassumNova/Multi_Camera_Calibration/blob/main/tx60l_moveit_config/image_acquisition_automation/src/multical_scripts/handEye_final.py). It will create transformation of one camera wrto one board.
+- Run [main_viz.py](https://github.com/TabassumNova/Multi_Camera_Calibration/blob/main/tx60l_moveit_config/image_acquisition_automation/main_viz.py) which will open the user interface.
+- Click the "View_Plan" tab
+
 
 # View plan tab
  <p align="center">
